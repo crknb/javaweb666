@@ -12,6 +12,7 @@ import java.io.IOException;
 public class SuccessServlet extends ViewBaseServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
         resp.sendRedirect("index");
     }
 
